@@ -1,5 +1,6 @@
 {
     "telemetry.editStats.enabled": false,
     "telemetry.feedback.enabled": false,
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "git.autofetch": true
 }
