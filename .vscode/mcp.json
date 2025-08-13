@@ -1,10 +1,8 @@
 {
-  "mcp": {
-    "servers": {
-      "time": {
-        "command": "uvx",
-        "args": ["mcp-server-time"]
-      }
+  "servers": {
+    "time": {
+      "command": "uvx",
+      "args": ["mcp-server-time"]
     }
   }
 }
