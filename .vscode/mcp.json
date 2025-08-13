@@ -2,13 +2,22 @@
   "servers": {
     "time": {
       "command": "uvx",
-      "args": ["mcp-server-time"]
+      "args": [
+        "mcp-server-time"
+      ]
     },
     "shodan": {
-        "command": "mcp-shodan",
-        // "env": {
-        //   "SHODAN_API_KEY": "set in repository Codespaces secrets"
-        // }
+      "command": "mcp-shodan",
+      // "env": {
+      //   "SHODAN_API_KEY": "set in repository Codespaces secrets"
+      // }
+    },
+    "censys-platform": {
+      "url": "https://mcp.platform.censys.io/platform/mcp/",
+      "headers": {
+        "X-Organization-ID": "your-organization-id",
+        "Authorization": "Bearer your-censys-personal-access-token"
       }
     }
+  },
 }
