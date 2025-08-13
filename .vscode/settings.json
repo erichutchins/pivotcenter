@@ -1,4 +1,5 @@
 {
     "telemetry.editStats.enabled": false,
-    "telemetry.feedback.enabled": false
+    "telemetry.feedback.enabled": false,
+    "workbench.colorTheme": "Visual Studio Dark"
 }
